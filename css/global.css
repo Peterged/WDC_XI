@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .content {
+  width: 600px;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  border-radius: 0.8em;
+  background: #1f1f1f;
+  color: white;
+}
+.container .content a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+.container .content a:hover {
+  text-decoration: underline;
+}
+.container .content h1 {
+  text-align: center;
+  margin-bottom: 0.8em;
+  font-size: 3em;
+}
+.container .content .signup_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .content .signup_form input {
+  outline: none;
+  width: 80%;
+  padding: 0.8em 1.6em;
+  font-size: 1.1em;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+}
+.container .content .signup_form input[type=submit] {
+  transition: 300ms;
+  text-align: center;
+  width: 80%;
+  cursor: pointer;
+}
+.container .content .signup_form input[type=submit]:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+.container .content .signup_form p.inputWarn {
+  width: 71%;
+  text-align: left;
+  color: red;
+  font-size: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+.m-container {
+  width: 100%;
+  height: 100vh;
+}
+.m-container .m-content {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f1f1f;
+  color: white;
+}
+.m-container .m-content a {
+  font-size: 1.4em;
+  color: blue;
+  cursor: pointer;
+}/*# sourceMappingURL=global.css.map */
