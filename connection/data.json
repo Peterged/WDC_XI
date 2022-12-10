@@ -1,0 +1,8 @@
+{
+    "connection": {
+        "dbname": "wdc1",
+        "servername": "localhost",
+        "username": "root",
+        "password": ""
+    }
+}
